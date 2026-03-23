@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <title>Task Manager</title>
+    <style>
+        /* CSS: Simple and clean look */
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            padding-top: 50px;
+        }
+        .container {
+            background: white;
+            width: 350px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        h2 { text-align: center; color: #333; }
+        .task-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .completed {
+            text-decoration: line-through;
+            color: gray;
+        }
+        button {
+            cursor: pointer;
+            background: #ff4d4d;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 2px 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class='container'>
+        <h2>My Tasks</h2>
+        
+        <div id='task-list'>
+            {% for task in tasks %}
+            <div class='task-item'>
+                <span class="{% if task.complete %}completed{% endif %}">
+                    {{ task.title }}
+                </span>
+                <button onclick='deleteTask(this)'>delete</button>
+            </div>
+            {% empty %}
+            <p>no tasks yet!</p>
+            {% endfor %}
+        </div>
+    </div>
+
+    <script>
+        /* JavaScript: Adding simple interaction */
+        function deleteTask(element) {
+            if (confirm('are you sure?')) {
+                element.parentElement.style.display = 'none';
+                console.log('task removed from view');
+            }
+        }
+    <script src="/static/js/script.js"></script>
+</body>
