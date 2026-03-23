@@ -1,13 +1,13 @@
-# Django Task Manager 📝
+# Django Task Manager 📝:
 
 A simple, functional Task Management application built to practice Full-Stack development using Python, Django, and SQL.
 
-## 🚀 Technologies Used
+#🚀 Technologies Used
 * **Backend:** Python 3.x, Django Framework
 * **Database:** SQLite (SQL)
 * **Frontend:** HTML5, CSS3 (Flexbox), JavaScript (Vanilla)
 
-## 📂 Project Structure
+# 📂 Project Structure
 This project follows the Django MVT (Model-View-Template) architecture:
 
 ```text
