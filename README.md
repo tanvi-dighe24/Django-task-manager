@@ -1,7 +1,12 @@
 # Django Task Manager 📝:
+
+
 simple, functional Task Management application built to practice Full-Stack development using Python, Django, and SQL.
 
-⚙️ How It Works (The Technical Flow):✅
+⚙️ How It Works (The Technical Flow):
+
+
+✅
 This application follows the MVT (Model-View-Template) architecture, which is the standard for Django development. Here is the step-by-step journey of a "Task":
 
 1. The Data Layer (Model & SQL)
