@@ -5,8 +5,6 @@
 -simple, functional Task Management application built to practice Full-Stack development using Python, Django, and SQL.
 
 ⚙️ How It Works (The Technical Flow):
-
-
 ✅
 -This application follows the MVT (Model-View-Template) architecture, which is the standard for Django development. Here is the step-by-step journey of a "Task":
 
@@ -43,7 +41,7 @@ The urls.py files in both the project and app folders act as the "GPS." They ens
 This project follows the Django MVT (Model-View-Template) architecture:
 
 
-task_manager/
+-task_manager/
 │
 ├── myproject/          # Project configuration (settings.py, urls.py)
 ├── tasks/              # App logic (models.py, views.py, urls.py)
