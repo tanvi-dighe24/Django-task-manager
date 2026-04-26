@@ -1,7 +1,5 @@
 # Django Task Manager 📝:
 
-
-
 -simple, functional Task Management application built to practice Full-Stack development using Python, Django, and SQL.
 
 ⚙️ How It Works (The Technical Flow):
@@ -27,13 +25,13 @@ The index.html file uses Django Template Language (the {% for %} loops) to dynam
 
 CSS (style.css): Provides the layout, ensuring the app is clean and responsive.
 
-JavaScript (script.js): Handles the "Client-Side" logic. When you click "delete," JavaScript removes the element from the screen instantly for a smooth user experience.
+#JavaScript (script.js): Handles the "Client-Side" logic. When you click "delete," JavaScript removes the element from the screen instantly for a smooth user experience.
 
 4. The Routing Layer (URLs)
 The urls.py files in both the project and app folders act as the "GPS." They ensure that when a user types in your web address, they are directed to the correct view logic.
 
-#🚀 Technologies Used
-* Backend: Python 3.x, Django Framework
+#🚀 Technologies Used in this project:
+* Backend: Python 3.0, Django Framework
 * Database: SQLite (SQL)
 * Frontend: HTML5, CSS3 (Flexbox), JavaScript (Vanilla)
 
